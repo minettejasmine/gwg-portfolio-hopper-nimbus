@@ -1,0 +1,262 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+a {
+  height: 48px;
+  width: 48px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+  }
+
+  a {
+    height: 48px;
+    width: 48px;
+    margin: 20px;
+  }
+
+  .header {
+    width: 100%;
+    order: 0;
+  }
+
+  .header-logo {
+    width: 50%;
+  }
+
+  .logo-image {
+    height: 50px;
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+
+  .header-namejob {
+    width: 50%;
+    padding-top: 10px;
+  }
+
+  .header-name {
+    font-size: 15px;
+    text-align: right;
+    padding-right: 3px;
+  }
+
+  .header-job {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 3px;
+  }
+  .welcome-content {
+    width: 100%;
+    order: 1;
+  }
+
+  .project-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .project1 {
+    width: 33%;
+    order: 2;
+  }
+
+  .project1-title {
+    font-size: 20%;
+  }
+
+  .project2 {
+    width: 33%;
+    order: 3;
+  }
+
+  .project2-title {
+    font-size: 20%;
+  }
+
+  .aboutme {
+    width: 33%;
+    order: 4;
+  }
+
+  .aboutme-title {
+    font-size: 20%;
+  }
+
+  .footer {
+    font-size: 10px;
+    width: 100%;
+    order: 5;
+  }
+}
+
+@media screen and (min-width: 351px) {
+  .header {
+    width: 100%;
+    order: 0;
+  }
+
+  .header-logo {
+    width: 150px;
+  }
+
+  .logo-image {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 2px;
+  }
+
+  .header-namejob {
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 2px;
+  }
+
+  .header-name {
+    font-size: 15px;
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  .header-job {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  .welcome-content {
+    width: 100%;
+    order: 1;
+  }
+
+  .welcome-message {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .project-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .project1 {
+    width: 33%;
+    order: 2;
+  }
+
+  .project1-title {
+    font-size: 12px;
+  }
+
+  .project2 {
+    width: 33%;
+    order: 3;
+  }
+
+  .project2-title {
+    font-size: 12px;
+  }
+
+  .aboutme {
+    width: 33%;
+    order: 4;
+  }
+
+  .aboutme-title {
+    font-size: 12px;
+  }
+
+  .footer {
+    font-size: 10px;
+    width: 100%;
+    order: 5;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    width: 100%;
+    order: 0;
+  }
+
+  .header-logo {
+    width: 250px;
+  }
+
+  .logo-image {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 2px;
+  }
+
+  .header-namejob {
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 2px;
+  }
+
+  .header-name {
+    font-size: 20px;
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  .header-job {
+    font-size: 15px;
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  .welcome-message {
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .project1-title {
+    font-size: 15px;
+  }
+
+  .project2-title {
+    font-size: 15px;
+  }
+
+  .aboutme-title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .welcome-message {
+    font-size: 20px;
+    top: 30%;
+    margin-right: 5px;
+  }
+}
